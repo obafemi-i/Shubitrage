@@ -1,4 +1,4 @@
-# Shubitrage
+# Shubitrage (Shoe arbitrage)
 
 **Version**
 > Python 3.10.9
