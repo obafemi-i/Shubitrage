@@ -12,7 +12,6 @@ class NikeSpider(scrapy.Spider):
     def parse(self, response):
         shoe_name = response.css('div.product-card__title::text').get()
         shoe_category = response.css('div.product-card__subtitle::text').get()
-
         selling_price = response.css('div.is--current-price::text').get()
 
         try:
